@@ -1,0 +1,20 @@
+{
+  "name": "helios-discord-bot",
+  "version": "1.0.0",
+  "description": "Community-first Discord bot with FiveM companion features.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy:commands": "node scripts/deploy-commands.js",
+    "lint": "node -e \"console.log('No linter configured yet.')\""
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.4.5"
+  }
+}
